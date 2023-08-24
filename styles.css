@@ -1,5 +1,5 @@
 :root{
-    --grey-color: rgba(158, 163, 183, 0.464);
+    --grey-color: rgba(178, 187, 220, 0.464);
 }
 
 body{
@@ -51,6 +51,8 @@ body > .container{
 .header > .top-header{
     display: grid;
     grid-template-columns: 10% 50% 10% 10% 20%;
+    align-items: center;
+    justify-content: center;
 }
 
 .searchbar{
@@ -58,7 +60,14 @@ body > .container{
     background-color: var(--grey-color);
     border-radius: 20px;
     height: 30px;
-    align-self: center;
+}
+
+.notify{
+    grid-area: 1 / 4 / 1 / 5;
+}
+
+.user{
+    grid-area: 1 / 5 / 1 / 6;
 }
 
 .content{
