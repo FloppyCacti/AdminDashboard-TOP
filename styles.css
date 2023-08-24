@@ -1,3 +1,7 @@
+:root{
+    --grey-color: rgba(158, 163, 183, 0.464);
+}
+
 body{
     margin: 0;
     font-family: 'Roboto';
@@ -40,23 +44,41 @@ body > .container{
 .header{
     background-color: rgb(255, 255, 255);
     grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.header > .top-header{
+    display: grid;
+    grid-template-columns: 10% 50% 10% 10% 20%;
+}
+
+.searchbar{
+    grid-area: 1 / 2 / 1 / 3;
+    background-color: var(--grey-color);
+    border-radius: 20px;
+    height: 30px;
+    align-self: center;
 }
 
 .content{
-    background-color: rgb(240, 245, 255);
+    background-color: var(--grey-color);
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
     grid-template-columns: 80% 20%;
     grid-template-rows: 50% 50%;
     padding: 100px;
     gap: 50px;
+    align-content: center;
+    justify-content: center;
 }
 
 .content > .project-content{
     grid-area: 1 / 1 / 3 / 2;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 30% 30% 30%;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 32% 32% 32%;
+    gap: 20px;
 }
 
 .project-content > div {
