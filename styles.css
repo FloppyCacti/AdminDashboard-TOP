@@ -64,6 +64,26 @@ body > .container{
     width: 100%;
 }
 
+.top-header > .user{
+    display: grid;
+    grid-area: 1 / 5 / 1 / 6;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+}
+
+.user > .userName{
+    width: 100px;
+    align-self: center;
+}
+
+.userProfilePic{
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    justify-self: center;
+}
+
 .notify{
     grid-area: 1 / 4 / 1 / 5;
 }
@@ -91,7 +111,7 @@ body > .container{
     grid-template-rows: 1% 30% 30% 30%;
     gap: 30px;
     align-items: center;
-    grid-row-gap: 20px;
+    grid-row-gap: 23px;
 }
 
 .project-content > h1{
