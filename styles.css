@@ -41,6 +41,68 @@ body > .container{
     font-size: 20px;
 }
 
+.nav > div  > img{
+    height: 17px;
+    padding-bottom: 4px;
+}
+
+.nav > div > p{
+    margin: 0;
+}
+
+.nav > .home-tab > img{
+    height: 25px;
+}
+
+.bottom > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom > div > p{
+    margin: 0px;
+}
+
+.bottom >.setting-tab > img{
+    height: 25px;
+}
+
+.bottom >.support-tab > img{
+    height: 25px;
+}
+
+.bottom >.setting-tab > img{
+    height: 25px;
+}
+
+.bottom > .privacy-tab > img{
+    height: 25px;
+}
+
+.nav > .messages-tab > img{
+    height: 30px;
+    margin-left: -5px;
+}
+
+.nav > .history-tab > img{
+    height: 25px;
+}
+
+.nav > .tasks-tab > img{
+    height: 25px;
+}
+
+.nav > .communities-tab > img{
+    height: 25px;
+}
+
+.nav > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .header{
     background-color: rgb(255, 255, 255);
     grid-area: 1 / 2 / 2 / 3;
@@ -56,12 +118,22 @@ body > .container{
     justify-items: center;
 }
 
+.top-header > .searchlogo > img{
+    height: 27px;
+    padding-top: 7px;
+}
+
 .top-header > .searchbar{
     grid-area: 1 / 2 / 1 / 3;
     background-color: var(--grey-color);
     border-radius: 20px;
     height: 30px;
     width: 100%;
+}
+
+.top-header > .notify > img{
+    height: 30px;
+    padding-top: 10px;;
 }
 
 .top-header > .user{
